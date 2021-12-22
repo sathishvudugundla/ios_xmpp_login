@@ -6,7 +6,7 @@
 //
 
 import Foundation
-//List(id: <#T##Int#>, name: <#T##String#>, coord: <#T##Coord#>, main: <#T##MainClass#>, visibility: <#T##Int#>, wind: <#T##Wind#>, clouds: <#T##Clouds#>, weather: <#T##[Weather]#>)
+
     struct WeatherModel: Codable {
         var cod: Int
         var calctime: Double

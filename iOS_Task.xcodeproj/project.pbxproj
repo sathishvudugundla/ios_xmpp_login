@@ -24,7 +24,6 @@
 		B8A1AC9A2770F6D7003E2D22 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A1AC992770F6D7003E2D22 /* BaseRequest.swift */; };
 		B8A1AC9C2770F74B003E2D22 /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A1AC9B2770F74A003E2D22 /* RequestType.swift */; };
 		B8A1ACA02770F899003E2D22 /* CitiesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A1AC9F2770F899003E2D22 /* CitiesList.swift */; };
-		B8A1ACA22770F911003E2D22 /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A1ACA12770F911003E2D22 /* CityModel.swift */; };
 		B8A1ACA42770F921003E2D22 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A1ACA32770F920003E2D22 /* WeatherModel.swift */; };
 		B8A1ACA62770FCE3003E2D22 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A1ACA52770FCE3003E2D22 /* LoginViewModel.swift */; };
 		B8A1ACA92770FDB7003E2D22 /* LoginValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A1ACA82770FDB7003E2D22 /* LoginValidation.swift */; };
@@ -55,7 +54,6 @@
 		B8A1AC992770F6D7003E2D22 /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
 		B8A1AC9B2770F74A003E2D22 /* RequestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestType.swift; sourceTree = "<group>"; };
 		B8A1AC9F2770F899003E2D22 /* CitiesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesList.swift; sourceTree = "<group>"; };
-		B8A1ACA12770F911003E2D22 /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
 		B8A1ACA32770F920003E2D22 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 		B8A1ACA52770FCE3003E2D22 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		B8A1ACA82770FDB7003E2D22 /* LoginValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginValidation.swift; sourceTree = "<group>"; };
@@ -126,7 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				B8A1AC942770F07E003E2D22 /* Cell */,
-				B8A1AC832770E1E0003E2D22 /* Views */,
 				B8A1AC822770E1D8003E2D22 /* ViewControllers */,
 			);
 			path = View;
@@ -144,7 +141,6 @@
 		B8A1AC812770E1A0003E2D22 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B8A1ACA12770F911003E2D22 /* CityModel.swift */,
 				B8A1ACAC277101A1003E2D22 /* XmppClient.swift */,
 				B8A1ACA32770F920003E2D22 /* WeatherModel.swift */,
 			);
@@ -159,13 +155,6 @@
 				B8A1AC882770E2EC003E2D22 /* WeaderDetailsViewController.swift */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		B8A1AC832770E1E0003E2D22 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		B8A1AC8A2770E3AB003E2D22 /* Constants */ = {
@@ -341,7 +330,6 @@
 				B8A1AC732770E147003E2D22 /* iOS_Task.xcdatamodeld in Sources */,
 				B8A1AC6B2770E147003E2D22 /* SceneDelegate.swift in Sources */,
 				B8A1AC872770E2D9003E2D22 /* ListOfWeatherViewController.swift in Sources */,
-				B8A1ACA22770F911003E2D22 /* CityModel.swift in Sources */,
 				B8A1ACAD277101A1003E2D22 /* XmppClient.swift in Sources */,
 				B8A1ACAB2770FDD2003E2D22 /* ValidationResult.swift in Sources */,
 				B89EAABF27735B2300A62A7B /* Reach.swift in Sources */,
